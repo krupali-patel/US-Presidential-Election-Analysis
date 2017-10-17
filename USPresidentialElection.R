@@ -7,7 +7,7 @@ library(scales) # to get nice looking legends
 library(maps)
 library(fiftystater)
 library(mapproj)
-usa.dat <- read.csv("D:\\UTD Course\\Sem2\\Stats\\Project\\Asssignment2\\us_2016_election_data.csv", header = T, sep = ",")
+usa.dat <- read.csv("us_2016_election_data.csv", header = T, sep = ",")
 usa.dat$State <- tolower(usa.dat$State)
 usa.dat$Clinton..<- as.numeric(gsub("%", "", usa.dat$Clinton..))
 usa.dat$Trump..<- as.numeric(gsub("%", "", usa.dat$Trump..))
@@ -54,4 +54,4 @@ p <- function(data, title) {
 }
 figure.title <- "Election Result"
 ggsave(p(usa.df, figure.title), height = 4, width = 4*1.9,
-       file = "ElectionResult.jpg")
+       file = "ElectionResult2016.jpg")
