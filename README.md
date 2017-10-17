@@ -15,7 +15,7 @@ http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=rrpromo
 ## Solution  
 (a) The final output map is the file - <b>ElectionResult2016.jpg</b> in Output folder.  
 <p align="justify">
-(b) The following are the conclusions along justifications:  
+(b) The following are the conclusions along with justifications:  
 
   *	The map essentially shows state-by-state percentage vote share of President Donald Trump in 2016 US Presidential election.  
   *	<p align="justify">The states are colored according majority of vote share in the election. If the state is colored in RED shades, that means Donald Trump has more than 50% vote share than Hillary Clinton for that state. It means he is leading in those states. </p>
